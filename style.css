@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:rgb(214, 228, 255);
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.Keyboard {
+    border: black solid 2px;
+    width: 90%;
+    height: 480px;
+    margin: 20px  auto;
+    border-radius: 20px; 
+    box-shadow: black 0px 2px 7px 1px;
+    background-color: white;
+}
+
+.keys {
+    text-align: center;
+    background-color: white;
+}
+
+button {
+    margin: 4px;
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: black 3px 2px 2px 0px;
+}
+.space{
+    /* text-align: center; */
+    width: 245px;
+}
+
+textarea#text{
+    margin: 20px 86px;
+    font-size: 25px;
+    width: 85%;
+    box-shadow: black 0px 0px 4px 0px;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+}
+.keybox {
+    margin: 5px auto;
+}
+.backspace_key{
+    width: 75px;
+}
+.capsLock{
+    width: 75px;
+}
+.delete_key{
+    width: 75px;
+}
+
+.show{
+    background-color: rgb(85, 255, 85);
+}
+.inputbox {
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+}
